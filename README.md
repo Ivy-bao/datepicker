@@ -1,2 +1,2 @@
 # datepickter
-bootstrap datepicker demo for chinese demo
+bootstrap datepicker demo for chinese
