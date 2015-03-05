@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>datepicker examples</title>
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.2/css/bootstrap.min.css">
+	<script src="http://t1.dpfile.com/t/jsnew/app/events/tpcommon/jquery/jquery-2.1.1.min.js"></script>
+	<script src="js/bootstrap-datepicker.js"></script>
+</head>
+<body>
+	<div class="container">
+	    <div class="hero-unit">
+		    <input id="bao" type="text" placeholder="click to show datepicker">
+		</div>
+	</div>
+
+	<script>
+        $(document).ready(function() {
+			$("#bao").datepicker({
+				format: "yyyy-mm-dd"
+			});
+		})
+	</script>
+</body>
+</html>
